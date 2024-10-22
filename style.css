@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (width<400px) {
+    h1{
+        font-size: 20px;
+        background-color: black;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (width>=400px) and (width<=900px) {
+    h1{
+        font-size: 28px;
+        background-color: black;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (width>=900px) {
+    h1{
+        font-size: 32px;
+        background-color: black;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 10px;
+    }
+}
